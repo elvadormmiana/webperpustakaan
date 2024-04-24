@@ -1,0 +1,195 @@
+<title>personal website elva sitanggang</title>
+<style type="text/css">body{background-color:blue;(135, 62, 75)}</style>
+<body>
+<script>
+            alert("SELAMAT DATANG DI WEB PRIBADI ELVA sitanggang");
+            function saya Hello(){
+                alert("Hello Winners!");
+            }
+        </script>
+<script>
+        console. log ( "Hallo Sahabat perpustakaan ") ;
+			</script>
+<script>
+        document.write("<h1>Hello  sahabat perpustakaan !</h1>");
+			</script>
+<style>.mainmenubtn{background-color:rgb(0, 255, 64);color:aqua;border:none;cursor:pointer;padding:20px;margin-top:20px}.mainmenubtn:hover{background-color:#fff}.dropdown{position:relative;display:inline-block}.dropdown-child{display:none;background-color:#fff;min-width:200px}.dropdown-child a{color:maroon;padding:20px;text-decoration:none;display:block}.dropdown:hover .dropdown-child{display:block}</style>
+<link rel="dns-prefetch" href="//www.suarasurabaya.net"></head>
+<div class="dropdown">
+<button class="mainmenubtn">TUGAS MODUL PRAKTIK</button>
+<div class="dropdown-child">
+<a href="index.html">Homepage</a>
+<a href="Modul 1 nomor 1.html">Perpustakaan Perguruan Tinggi</a>
+<a href="modul 1 nomor 2.html">Audio dan Video</a>
+<a href="Modul 2. nomor 1.html">Formulir Anggota Perpustakaan</a>
+<a href="Modul 2 Nomor 2.html">Tabel Bahan Buku</a > 
+<a href="Modul 2 Nomor 2.html">Form Pemesanan Buku</a>
+<a href="Modul 2 Nomor 2.html">Form Perpanjangan Peminjaman Buku</a>
+
+</div>
+</body>
+</html>
+</nav>
+<center><h1>WELCOME TO LIBRARIES </h1>
+<img src="perpustakaan kita.jpg" style="width:1340px;height:300px;" align="middle">
+<hr></hr>
+<center><table border="l">
+<th><h3 style="color:red"> About this Website </h3></th>
+<tr>
+<td>
+<p> Halo! Terima kasih telah mengunjungi website ini </p>
+<p style="text-align: justify;"> Website ini dibuat untuk memenuhi tugas pada mata kuliah Pemrograman Web Praktik dengan dosen pengampu Ibu Himma Dewiyana, S.T., M.Hum pada program studi S-1 Perpustakaan dan Sains Informasi, Fakultas Ilmu Budaya, Universitas Sumatera Utara </p>
+</td>
+</tr>
+</table></center>
+<footer style="text-align: center;">
+<p>Copyright &copy; elva sitanggang - 210709061</p>
+</footer>
+</body>
+</html
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <p> judul-judul buku yang akan dipamerkan .</p>
+</div>
+
+<div class="column">
+  <table class="table-bordered">
+    <tr>
+      <th>Judul Buku</th>
+
+      <th>Pengarang</th>
+
+      <th>Tahun Terbit</th>
+    </tr>
+    <tr>
+      <td> Harry Potter</td>
+
+      <td>J.k Rowling</td>
+
+      <td>1997</td>
+    </tr>
+    <tr>
+      <td> To Kill A M ockingbird</td>
+
+      <td>Harper Lee</td>
+
+      <td>1960</td>
+    </tr>
+    <tr>
+      <td> Great Gatsby</td>
+      <td>F.Scott Fitzgerald</td>
+
+      <td>1925</td>
+    </tr>
+    <tr>
+      <td> cantik itu luka</td>
+
+      <td>Eka Kurniawqan</td>
+
+      <td>2016</td>
+    </tr>
+    <tr>
+      <td> Laut Bercerita</td>
+
+      <td>Leila S Chudori</td>
+
+      <td>2020</td>
+    </tr>
+    <tr>
+      <td> Bumi Manusia</td>
+
+      <td> Pramoedya Nanata text-decoration</td>
+
+      <td>1964</td>
+    </tr>
+    <tr>
+      <td> Saman</td>
+
+      <td> Ayu Utami </td>
+
+      <td> 2000 </td>
+    </tr>
+    <tr>
+      <td> Ronggeng Dukuh Paruk </td>
+
+      <td> Ahmad Tohari</td>
+
+      <td>1995</td>
+    </tr>
+    <tr>
+      <td> Entrok</td>
+
+      <td>Oky Madhasary</td>
+
+      <td>1979</td>
+    </tr>
+    <tr>
+      <td>  SumUR</td>
+
+      <td> Eka Kurniawan</td>
+
+      <td>2016</td>
+    </tr>
+    <tr>
+    </tr>
+  </table>
+</div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Perpustakaan</title>
+<style>
+    /* Styles untuk pameran buku */
+    .book-exhibition {
+        border: 2px solid #ccc;
+        padding: 10px;
+        margin-top: 20px;
+    }
+</style>
+</head>
+<body>
+
+
+
+<p>Masukkan jumlah buku yang ingin dipamerkan:</p>
+<input type="number" id="jumlahBuku">
+<button onclick="tampilkanPameran()">Tampilkan Pameran</button>
+
+<div id="pameranBuku" class="book-exhibition"></div>
+
+<script>
+// JavaScript code
+function tampilkanPameran() {
+    var jumlahBuku = parseInt(document.getElementById("jumlahBuku").value);
+    var pameran = document.getElementById("pameranBuku");
+
+    // Bersihkan pameran sebelum menambahkan buku baru
+    pameran.innerHTML = "";
+
+    if (jumlahBuku <= 0 || isNaN(jumlahBuku)) {
+        pameran.innerHTML = "Masukkan jumlah buku yang valid!";
+    } else {
+        pameran.innerHTML = "<h2>Pameran Buku:</h2>";
+
+        // Buat daftar buku dengan perulangan
+        pameran.innerHTML += "<ul>";
+        for (var i = 1; i <= jumlahBuku; i++) {
+            pameran.innerHTML += "<li>Buku " + i + "</li>";
+        }
+        pameran.innerHTML += "</ul>";
+    }
+}
+</script>
+
+</body>
+</html>
